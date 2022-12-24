@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url(/images/bg.png) 100% 100% / cover no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.message{
+    position: fixed;
+    color: white;
+    min-width: 200px;
+    border: 6px solid red;
+    background-color: black;
+    padding: 30px;
+    bottom: 0;
+}
+.error{
+    color: red;
+    min-width: 200px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+.wrapper{
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    align-items: center;
+}
+.loginForm{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+    padding: 10px;
+}
+.addNewItem{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+    padding: 10px;
+
+}
+input[type=text],input[type=submit],input[type=password]{
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px 10px;
+    border: 1px solid black;
+    outline: none;
+}
+input[type=file]{
+    height: 30px;
+    font-size: 14px;
+    outline: none;
+    outline: 2px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+select {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    outline: 2px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

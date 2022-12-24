@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url(/images/bg.png) 100% 100% / cover no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.preloader{
+    color: white;
+    width: 18px;
+    height: 18px;
+}
+.preloader img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgb(211, 211, 211);
+}
+
+.header{
+    width: 100%;
+    height: 400px;
+    opacity: 0.99;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.header-background{
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    z-index: -1;
+    box-sizing: border-box;
+    background: url(/images/header.png) 100% 100% / cover no-repeat;
+    filter: blur(9px) brightness(0.9);
+    box-shadow: 0;
+    overflow: hidden;
+    border-left: 9px solid black;
+    border-right: 9px solid black;
+    border-bottom: 2px solid black;
+}
+.logo {
+    width: 60px;
+}
+.header-links{
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -1px;
+    background-color: rgba(0, 0, 0, 0.404);
+    
+}
+.header-links a{
+    text-decoration: none;
+}
+.header-links-a{
+    color: white;
+    font-size: 20px;
+}
+.cartIcon{
+    position: relative;
+    display: block;
+    background: url(/images/icons/basket.png) 100% 100% /contain no-repeat;
+    padding: 15px 13px;
+}
+.countItems{
+    color: white;
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    background-color: red;
+    border-radius: 45px;
+    height: 15px;
+    min-width: 15px;
+    max-width: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.shopTitle{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+}
+#categoryFilter{
+    margin: 10px;
+}
+#categoryFilter select {
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    outline: 2px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.catalog {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+    text-align: center;
+}
+
+.catalog-item {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: calc(33.333333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: white;
+}
+.catalog-item a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(81, 95, 216);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.catalog-item-pic {
+    background: center center / contain no-repeat;
+    height: 200px;
+}
+
+.catalog-item-title {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.catalog-item-price {
+    padding: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#selectPage{
+    width: 100%;
+    padding: 0 20px 10px;
+    display: flex;
+}
+.pageButton{
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width:30px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: rgb(211, 211, 211);
+}
+.currentPage{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+}
+.footer img{
+    width: 1200px;
+    height: 100%;
+}
+.footer-flex-div{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.footer-flex-item p, h4{
+    width: 100%;
+}
+.footer-flex-item{
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid white;
+    height: 200px;
+    width: 33%;
+    color: white;
+}
+.footer-child-top{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+}
+.footer-child-mid{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.footer-child-bot{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+}
