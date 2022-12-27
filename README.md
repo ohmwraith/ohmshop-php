@@ -14,7 +14,7 @@
 | Просмотр корзины | ![4](https://user-images.githubusercontent.com/44874495/209453601-a1994c15-f831-47ef-81a2-11342dce8456.gif) | Пользователь может просматривать список товаров, добавленных в корзину |
 
 # Стек
-![JS, HTML, CSS, PHP, MySQL](https://skillicons.dev/icons?i=js,html,css,php,mysql&theme=dark)
+![JS, HTML, CSS, PHP, MySQL](https://skillicons.dev/icons?i=php,mysql,js,html,css,&theme=dark)
 
 ## Установка
 
